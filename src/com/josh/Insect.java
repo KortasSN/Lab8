@@ -3,7 +3,7 @@ package com.josh;
 /**
  * Created by ec0662sr on 3/17/2016.
  */
-public class Insect {
+public abstract class Insect {
     String name;
     int wings;
     static final int legs = 6;
@@ -30,5 +30,5 @@ public class Insect {
         this.wings = wings;
     }
 
-
+    public abstract void printSpeciesData();
 }

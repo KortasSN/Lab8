@@ -41,7 +41,7 @@ public class Bee extends Insect {
         this.favFlower = favFlower;
     }
 
-    void printSpeciesData() {
+    public void printSpeciesData() {
         if (honey = true) {
             System.out.println("A " + this.name + " has " + this.color + " color wings and produces honey. Its favorite flower is " +
                     favFlower + " and has " + this.wings + " wings.");

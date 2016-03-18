@@ -1,5 +1,7 @@
 package com.josh;
 
+import java.util.LinkedList;
+
 public class InsectManager {
 
     public static void main(String[] args) {
@@ -17,5 +19,16 @@ public class InsectManager {
                 new Bee("yellow, black and white", false, "clover", "Bumble Bee", 4);
         honeyBee.printSpeciesData();
         bumbleBee.printSpeciesData();
+
+        LinkedList<Insect> insects = new LinkedList();
+        insects.add(monarch);
+        insects.add(commonYellowSwallowtail);
+        insects.add(honeyBee);
+        insects.add(bumbleBee);
+
+        for (Insect i: insects) {
+            i.printSpeciesData();
+
+        }
     }
 }

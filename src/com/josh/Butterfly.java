@@ -23,7 +23,7 @@ public class Butterfly extends Insect {
         this.favFlower = favFlower;
     }
 
-    void printSpeciesData() {
+    public void printSpeciesData() {
         System.out.println("A " + this.name + " butterfly has " + this.legs + " legs, " + this.wings + " wings, it is " +
                 this.wingColor + " and likes a plant called " + this.favFlower + ".");
     }
